@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learn about HTML: Guide to Beginners in How to write and use</title>
+        <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/4d7d83e2bc.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar_container">
+                <a href="content.html" id="navbar_logo">Learn about HTML</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar_menu">
+                    <li class="navbar_item">
+                        <a href="index.html" class="navbar_links" id="home-page">HOME</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="content.html" class="navbar_links" id="content-page">Tutorial</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="contact.html" class="navbar_links" id="contact-page">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="app.js"></script>
+        <!-- Bar Section -->
+		<div class="bar" id="content">
+		  <div class="bar_conatiner">
+		     <ul>
+			     <li><a href="">HTML</a></li>
+		         <li><a href="CSS.html">CSS<a/></li>
+		         <li><a href="JAVASCRIPT.html">JAVASCRIPT</a></li>
+			 </ul>
+		  </div>
+		</div>
+		
+		<!--HTML Section-->
+		<main class=html section id="content">
+		 <main class="html_container">
+		 <br>
+	 <h1>What is HTML? </h1>
+<p>- The set of tags necessary for any HTML web page you create is known as the basic HTML skeleton. Without the skeleton, HTML files will not be rendered properly in web browsers because the tags that make up the skeleton inform browsers of the type of file it is viewing.</p>
+<p>- So this is the only bit of mandatory theory. In order to begin to write HTML, it helps if you know what you are writing.</p>
+<p>- HTML is the language in which most websites are written. HTML is used to create pages and make them functional.</p>
+<p>- The code used to make them visually appealing is known as CSS and we shall focus on this in a later tutorial. For now, we will focus on teaching you how to build rather than design.</p><br>
+
+<h3>HTML Documents</h3><br>
+<p>The set of tags necessary for any HTML web page you create is known as the basic HTML skeleton. Without the skeleton, HTML files will not be rendered properly in web browsers because the tags that make up the skeleton inform browsers of the type of file it is viewing.</p>
+<b><h4 class="html_subtopic">!DOCTYPE html</h4></b>
+<p>There is no HTML tag in the declaration. The browser receives "information" from it about the type of document to anticipate.</p>
+<b><h4 class="html_subtopic">< html > < /html ></h4></b>
+<b><h4 class="html_subtopic">< head > < /head ></h4></b>
+<p>All other HTML elements—aside from the!DOCTYPE> tag—are contained within it. Additionally, it stands for the HTML document's root</p>
+<b><h4 class="html_subtopic">< title>< /title ></h4></b>
+<p>It defines the document's title. The page's tab or the title bar of the browser both display the title, which must only be text. For search engine optimization (SEO), the content of a page title is crucial! When listing pages in search results, search engine algorithms use the page title to determine the hierarchy.</p>
+<b><h4 class="html_subtopic">< body >< /body></h4></b>
+<p>There are headings, paragraphs, images, hyperlinks, tables, lists, and other elements that make up an HTML document's body.</p><br>
+<img src="body.png" width="500px" height="300px"><br><br>
+<h3>HTML Headings</h3><br>
+<p>The text headers for a document are made using the <b>h1, h2, h3, h4, h5,</b> and <b>h6</b> tags. They can choose from six different font sizes to show the header text. The font size gradually decreases from the largest size, h1, to the smallest size, h6, as indicated by the integer number.</p><br>
+<img src="headings.png" width="700px"><br>
+<h3>HTML Paragraph</h3>
+<p>An HTML paragraph is represented by the <b>< p ></b> element.</p>
+<img src="p.png" width="700px"><br>
+<h3>HTML Bold Text</h3>
+<p>Bold text is indicated via the <b>< b ></b> element without any further significance.</p><br>
+<img src="b.png" width="700px"><br>
+<h3>HTML Italic Text</h3>
+<p>The italicized text is styled with the <b>< i ></b> element to set it apart from the surrounding text without giving the words any additional prominence.</p><br>
+<img src="i.png" width="700px"><br>
+<h3>HTML Small/Big Text</h3>
+<p>- The HTML <b>< small ></b> tag reduces the font size of the text in the document by one.</p>
+<p>- The HTML <b>< big ></b> tag enlarges text in the document by one font size</p>
+<img src="bs.png" width="700px"><br>
+<h3>HTML Comment Text</h3>
+<p>A comment is text enclosed within in HTML. <b>< !╌ ╌ ></b> tags. By using this technique, you can inform a browser that some elements are comments and shouldn't be displayed on the front end.</p><br>
+<img src="comment.png" width="700px"><br>
+<h3>HTML Mark Text</h3>
+<p>In HTML, the marked text is specified via the <b>< mark ></b> tag. It is used to draw attention to a specific section of text inside a paragraph.</p><br>
+<img src="mark.png" width="700px"><br>
+<h3>HTML Delete Text</h3>
+<p>The HTML <b>< del ></b> element, which stands for "delete," is used to indicate text that has been removed from the document.</p><br>
+<img src="del.png" width="700px"><br>
+<h3>HTML Emphasized Text</h3>
+<p>The <b>< em ></b> tag is used to define emphasized text. The content inside is typically displayed in italic.</p><br>
+<img src="em.png" width="700px"><br>
+<h3>HTML Inserted Text</h3>
+<p>When text is entered into a document, the <b>< ins ></b> tag describes it. Usually, inserted text is underlined by browsers.</p><br>
+<img src="in.png" width="700px"><br>
+<h3>HTML Subscript Text</h3>
+<p>Subscript text is described by the tag <b>< sub ></b> Subscript text is often displayed in a smaller font and sits half a character below the main line.</p><br>
+<img src="sub.png" width="700px"><br>
+<h3>HTML Superscript Text</h3>
+<p>The HTML element <b>< sup ></b> designates inline text that should be shown as superscript exclusively for typographical reasons. Superscripts are often displayed using a higher baseline and smaller font.</p><br>
+<img src="sup.png" width="700px"><br>
+<h3>HTML Line Break</h3>
+<p>The line break should be indicate by the <b>< br ></b> tag.</p><br>
+<img src="br.png" width="700px"><br>
+<h3>HTML Horizontal</h3>
+<p>To make a horizontal line use the HMTL <b>< hr ></b> tag.</p>
+<img src="h.png" width="700px"><br>
+<h3>HTML Quotation</h3>
+<p>A block of text that is quoted from another source is designated using the HTML <b>< blockquote ></b> tag. The blockquote> tag's content is typically displayed by browsers as indented text.</p><br>
+<img src="quotation.png" width="700px"><br>
+<h3>HTML Short Quotation</h3>
+<p>The <b>< q ></b> tag is a standard quotation tag and used for short quotation.</p><br>
+<img src="shortq.png" width="700px"><br>
+<h3>HTML Contact Information</h3>
+<p>To get the website owner's or article author's contact information, use the <b></b>< address ></b> tag. Address, phone number, email, website connection, and a lot more could be included.</p><br>
+<img src="address.png" width="700px"><br>
+<h3>HTML Work Title</h3>
+<p>The source of a quotation or creative work is indicated with the <b>< cite ></b> element. Instead of the author or creator of a referenced creative work, use the element to identify the name.</p><br>
+<img src="cite.png" width="700px"><br>
+<h3>HTML List Items</h3>
+<p>An unordered list of elements is represented by the HTML element <b>< ul ></b>, which is commonly shown as a bulleted list.</p><br>
+<img src="un.png" width="700px"><br>
+<p>A list item that is a part of an ordered and unordered list of items is defined by the <b>< li ></b> element.</p><br>
+<p>An ordered list is defined by the <b>< ol ></b> tag. A list that is arranged can be alphabetical or numerical.</p><br>
+<img src="on.png" width="700px"><br>
+<h3>HTML Description Items</h3>
+<p>A description list is defined by the tag <b>< dl ></b></p><br>
+<p>In a description list, the <b>< dt ></b> tag defines a term or name.</p><br>
+<p>An item in a description list can be described using the <b>< dd ></b> tag. You can insert lists, paragraphs, line breaks, photos, links, and more inside a <b>< dd ></b> tag.</p><br>
+<img src="dd.png" width="700px"><br>
+<h3>HTML Table Items</h3>
+<p>The HTML element <b>< table ></b> represents tabular data, or data shown in a two-dimensional table with rows and columns of data-containing cells.</p><br>
+<p>The HTML element <b>< th ></b> designates a cell as the group's header. The scope and headers attributes specify exactly what this group is.</p><br>
+<p>To indicate a table row within a table, use the HTML <b>< tr ></b> tag.</p><br>
+<p>A typical data cell in an HTML table is defined using the <b>< td ></b> tag.</p><br>
+<img src="Cell.png" width="700px"><br>
+<h3>HTML Caption Table</h3>
+<p>The title of a table is specified in the HTML text by the <b>< caption ></b> tag.</p><br>
+<img src="caption.png" width="700px"><br>
+<h3>HTML One or More Table</h3>
+<p>The <b>< colgroup ></b> element designates a group of one or more columns in a table for formatting.</p><br>
+<img src="oneormore.png" width="700px"><br>
+<h3>HTML Images</h3>
+<p>- The <b>< img ></b> tag is used to embed an image in an HTML page.</p>
+<p>- <b>src</b> Specifies the path to the image</p>
+<p>- <b>alt</b> Specifies an alternate text for the image, if the image for some reason cannot be displayed</p><br>
+<img src="img.png" width="700px"><br>
+<h3>HTML Videos</h3>
+<p>- A movie clip or other video streams can be included in a document by using the <b>< video ></b> tag.</p>
+<p>- <b>Loop</b> Specifies that after each complete cycle, the video will begin again.</p>
+<p>- <b>Controls</b> Indicates that video controls, such as a play/pause button, should be visible.
+</p>
+<p>- Before the user clicks the play button or while the movie is downloading, the <b>Poster</b> specifies an image to be displayed.</p>
+<img src="video.png" width="700px"><br>
+<h3>HTML YouTube Videos</h3>
+<p>- An HTML page can be embedded inside of another one using the <b>< iframe ></b> HTML element, which symbolizes nested browsing contexts</p>
+<p>- The document's address is specified by the <b>src</b> attribute in an <b>< iframe ></b></p>
+<p>- <b>Allowfullscreen</b> is an HTML attribute that is frequently applied to the iframe HTML tag. It allows fullscreen video playback from a variety of sources.</p>
+<p>- To <b>embed</b> a video in an HTML page, use the <b>< iframe ></b> element. The source attribute included the video URL. For the dimensions of the video player, set the width and height of the video appropriately.</p>
+<img src="iframe.png" width="700px"><br>
+<h3>HTML Links</h3>
+<p>- With the help of the <b>< href ></b> property on the <b>< a ></b> HTML element, you may link to any URL-enabled object, including files, web pages, email addresses, places on the same page, and more</p>
+<p>- Each <b>< a ></b> tag should contain information that identifies the location of the link. Pressing enter while keeping your attention on the <b>< a ></b> element will activate the <b>< href ></b> attribute if it is there</p>
+<p>- To open the linked document, use the <b>< target ></b> attribute to specify a location</p>
+<p>- The connected page is opened in a new window or tab using the code <b>< _blank ></b></p><br>
+<img src="links.png" width="700px"><br>
+<h3>HTML Navigation Links</h3>
+<p>A section of a page that serves as a source of navigation links, either to other documents or to other pages on the same website, is designated with the HTML element <b>< nav ></b>. Indexes, menus, and tables of contents are typical illustrations of navigation sections.</p><br>
+<img src="nav.png" width="700px"><br>
+<h3>HTML Main Content of a Document</h3>
+<p>The content of a webpage that relates to the main subject of that page or application is designated using the <b>< main ></b> element. It should only contain information that is specific to that page and not information that is repeated on other webpages, such as headers, footers, and the main navigation.
+</p><br>
+<img src="main.png" width="700px"><br>
+<h3>HTML Header of a Page</h3>
+<p>The header of a page or section is specified by the <b>< header ></b> tag. Typically, it has a logo, a search bar, navigational links, etc.</p><br>
+<img src="headerpage.png" width="700px"><br>
+<h3>HTML Footer for Documents or Section</h3>
+<p>The footer for its closest ancestor sectioning content or sectioning root element is represented by the HTML element <b>< footer ></b>. Typically, a footer includes information about the section's author, copyright information, or links to related papers.</p><br>
+<img src="footer.png" width="700px"><br>
+<h3>HTML Article</h3>
+<p>The <b>< article ></b> HTML element represents a self-contained composition in a document, page, application, or site that is meant to be independently distributable or reusable. Examples include a forum post, a magazine, newspaper, or blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent piece of content.</p><br>
+<img src="article.png" width="700px"><br>
+<h3>HTML Section in Document</h3>
+<p>An HTML structural element called <b>< section ></b> is used to gather together items that are linked to one another. Each <b>< section ></b> normally consists of a heading element or elements that convey relevant material.</p><br>
+<img src="section.png" width="700px"><br>
+<h3>HTML Aside from the Content</h3>
+<p>The HTML element known as <b>< aside ></b> designates a section of a page whose content is only loosely related to the document's primary text. Frequently, sidebars or call-out boxes are used to present asides.</p><br>
+<img src="aside.png" width="700px"><br><br>
+     <p class="main_rec">Recommended Tutorial Videos:
+	 <h6><a  href="https://youtu.be/qz0aGYrrlhU">https://youtu.be/qz0aGYrrlhU</a></h6>
+		<h6><a  href="https://youtu.be/pQN-pnXPaVg">https://youtu.be/pQN-pnXPaVg</a></h6>
+		<h6><a  href="https://youtu.be/kUMe1FH4CHE">https://youtu.be/kUMe1FH4CHE</a></h6>
+		</p>
+		<!-- Footer Section -->
+        <section class="footer">
+            <h4 class="footer_heading">About Us</h4>
+            <p class="footer_description">Learn about HTML is absolute for Beginners that optimized for learning. Examples <br>might be simplified to improve reading and learning, however,<br> it is constantly reviewed to avoid errors.</p>
+            <div class="icons">
+			<h6 align="center">
+                <a href="https://www.facebook.com/HTMLearn/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="mailto:htmllearnabout@gmail.com" target="_blank"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.linkedin.com/in/learn-about-html-b843b2149" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+			 </h6>
+            </div>
+            <p class="footer_title">Learn About HTML</p>
+        </section>
+</body>
+</html>
